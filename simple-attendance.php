@@ -113,6 +113,14 @@ final class Simple_Attendance {
 	protected $attendance;
 
 	/**
+	 * Instance of SA_Sa_Classes
+	 *
+	 * @since0.1.0
+	 * @var SA_Sa_Classes
+	 */
+	protected $sa_classes;
+
+	/**
 	 * Creates or returns an instance of this class.
 	 *
 	 * @since   0.1.0
@@ -146,6 +154,7 @@ final class Simple_Attendance {
 
 		$this->attendee = new SA_Attendee( $this );
 		$this->attendance = new SA_Attendance( $this );
+		$this->sa_classes = new SA_Sa_Classes( $this );
 	} // END OF PLUGIN CLASSES FUNCTION
 
 	/**
@@ -303,6 +312,7 @@ final class Simple_Attendance {
 			case 'path':
 			case 'attendee':
 			case 'attendance':
+			case 'sa_classes':
 				return $this->$field;
 			default:
 				throw new Exception( 'Invalid ' . __CLASS__ . ' property: ' . $field );

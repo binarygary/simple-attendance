@@ -16,6 +16,7 @@
 		"classmap": ["simple-attendance.php", "includes/"]
 	},
 	"require": {
-		"webdevstudios/cpt-core": "dev-master"
+		"webdevstudios/cpt-core": "dev-master",
+		"webdevstudios/taxonomy_core": "dev-master"
 	}
 }
