@@ -105,6 +105,14 @@ final class Simple_Attendance {
 	protected $attendee;
 
 	/**
+	 * Instance of SA_Attendance
+	 *
+	 * @since0.1.0
+	 * @var SA_Attendance
+	 */
+	protected $attendance;
+
+	/**
 	 * Creates or returns an instance of this class.
 	 *
 	 * @since   0.1.0
@@ -137,6 +145,7 @@ final class Simple_Attendance {
 	public function plugin_classes() {
 
 		$this->attendee = new SA_Attendee( $this );
+		$this->attendance = new SA_Attendance( $this );
 	} // END OF PLUGIN CLASSES FUNCTION
 
 	/**
@@ -293,6 +302,7 @@ final class Simple_Attendance {
 			case 'url':
 			case 'path':
 			case 'attendee':
+			case 'attendance':
 				return $this->$field;
 			default:
 				throw new Exception( 'Invalid ' . __CLASS__ . ' property: ' . $field );
