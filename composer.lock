@@ -1,0 +1,64 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "e5371fbd786c13555bf60c6d2a2d7a38",
+    "packages": [
+        {
+            "name": "webdevstudios/cpt-core",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/WebDevStudios/CPT_Core.git",
+                "reference": "1f856e619a20c96f093f6916b4e6fa522d851b7c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/WebDevStudios/CPT_Core/zipball/1f856e619a20c96f093f6916b4e6fa522d851b7c",
+                "reference": "1f856e619a20c96f093f6916b4e6fa522d851b7c",
+                "shasum": ""
+            },
+            "suggest": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "autoload": {
+                "files": [
+                    "CPT_Core.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPLv2"
+            ],
+            "authors": [
+                {
+                    "name": "WebDevStudios",
+                    "email": "contact@webdevstudios.com",
+                    "homepage": "https://github.com/WebDevStudios",
+                    "role": "Developer"
+                }
+            ],
+            "description": "WordPress Custom Post Type OO wrapper",
+            "homepage": "https://github.com/WebDevStudios/CPT_Core",
+            "keywords": [
+                "metabox",
+                "plugin",
+                "wordpress"
+            ],
+            "time": "2017-03-24 16:06:06"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "webdevstudios/cpt-core": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
