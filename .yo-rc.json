@@ -1,0 +1,20 @@
+{
+  "generator-plugin-wp": {
+    "name": "Simple Attendance",
+    "homepage": "https://binarygary.com",
+    "description": "Keep track of attendance at events with the option to run reports.",
+    "version": "0.1.0",
+    "author": "Gary Kovar",
+    "authoremail": "plugins@binarygary.com",
+    "authorurl": "https://binargary.com",
+    "license": "GPLv2",
+    "slug": "simple-attendance",
+    "classname": "Simple_Attendance",
+    "mainclassname": "Simple_Attendance",
+    "classprefix": "SA_",
+    "prefix": "simple_attendance",
+    "year": 2017,
+    "currentVersionWP": "4.8.1",
+    "plugingenversion": "0.20.2"
+  }
+}

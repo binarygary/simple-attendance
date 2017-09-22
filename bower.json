@@ -1,0 +1,18 @@
+{
+  "name": "simple-attendance",
+  "description": "Keep track of attendance at events with the option to run reports.",
+  "license": "GPLv2",
+  "authors": [
+    "Gary Kovar"
+  ],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+  }
+}
