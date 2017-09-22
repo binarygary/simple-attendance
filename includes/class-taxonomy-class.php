@@ -52,7 +52,8 @@ class SA_Sa_Classes extends Taxonomy_Core {
 			),
 			// Post types to attach to.
 			array(
-				'post',
+				'sa-attendance',
+				'sa-attendee',
 			)
 		);
 	}

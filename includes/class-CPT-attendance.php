@@ -54,8 +54,9 @@ class SA_Attendance extends CPT_Core {
 					'excerpt',
 					'thumbnail',
 				),
-				'menu_icon' => 'dashicons-admin-post', // https://developer.wordpress.org/resource/dashicons/
-				'public'    => true,
+				'menu_icon'    => 'dashicons-admin-post', // https://developer.wordpress.org/resource/dashicons/
+				'public'       => false,
+				'show_in_menu' => false,
 			)
 		);
 	}
